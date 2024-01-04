@@ -1,0 +1,127 @@
+{
+  "keywordFileContentHash": "3431A0E1E43201769234F745E939DDC6",
+  "keywordClasses": [
+    {
+      "name": "customkeywords.Keywords",
+      "keywordMethods": [
+        {
+          "name": "getCurrentSessionMobileDriver",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Method to fetch the current mobile session\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "verticalSwipe",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Method to perform a vertical swipe\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "dynamicHorizontalSwipe",
+          "parameters": [
+            {
+              "name": "elements",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Method to perform horizontal swipe on elements of a specific list\r\n\t * @param elements\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "createTestObjectOutOfList",
+          "parameters": [
+            {
+              "name": "elements",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "io.appium.java_client.MobileElement",
+                    "unresolvedClassName": "MobileElement",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "locator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Method to create test object out of a list of elements\r\n\t * @param elements\r\n\t * @param locator\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "selectSpecificElementFromWithinList",
+          "parameters": [
+            {
+              "name": "elementsList",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.MobileTestObject",
+                "unresolvedClassName": "MobileTestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expectedText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * \\Method to select a specific element from a list\r\n\t * @param elementsList\r\n\t * @param expectedText\r\n\t * @return\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
